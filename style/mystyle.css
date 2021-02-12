@@ -1,0 +1,55 @@
+:root {
+    --dourado: #3d0bc7;
+    --black: #000000;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background: #eae8f0;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;   
+}
+
+header .container {   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: var(--dourado);
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 20px;   
+}
+
+.principal {
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/halo1.jpg');
+    height: 700px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    background-size: cover;
+}
+
+.subtitulo {
+    font-size: 35px;
+    padding-top: 30%;
+    padding-bottom: 2%;
+    color: rgb(147, 147, 211);
+
+}
